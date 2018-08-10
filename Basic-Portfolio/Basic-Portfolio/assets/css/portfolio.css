@@ -18,24 +18,21 @@ html {
 
   #nav {
   
-    border-bottom: solid #ccc ;
-    padding-bottom: 28px;
-    height: 90px;
-    width: 960px;
-    margin-left: 480px;
-    margin-right: 480px;
+    border-bottom: solid red 2px;
+  padding-bottom: 30px;
+  height: 90px;
   }
 
 .Name {
-    background-color: #4aaaa5  ;
-    color: white;
-    content: "About Me"; position: relative; top: 0; left: 0; bottom: 0; right: 0; z-index: 3; text-align: center;
-    margin-left: 480px;
-    margin-right: 480px;
-    width: 197px;
-    background-size: 90px 200px;
-    font-family: Georgia;
-    text-align: left;
+  font:color white;
+  background-color:  #4aaaa5;
+  margin-left: 480px;
+  margin-right: 480px;
+  width: 197px;
+  background-size: 90px 200px;
+  font-family: Georgia;
+  text-align: left;
+  font-size: 200%;
 }
   .One { 
     margin-left: 480px;
@@ -47,17 +44,24 @@ html {
 
   li {
     display: inline;
+    border-right: #6666 2px solid;
+  padding: 10px;
   }
 
   #content {
-    width: 960px;
+
+  width: 960px;
+  font-size: 25px;
+  
+  padding: 30px;
+  border: solid #dddddd 480px;
+  border-top: 16px solid #dddddd;
+  border-bottom: 33px solid #dddddd;
+  
+  align-content: center;
     
-    margin-bottom: 113px;
-    padding: 30px;
-    border: solid #dddddd 1px;
-    margin-top: 30px;
-    margin-left: 480px;
-    margin-right: 480px;
+  margin: 0px auto;
+  
     
     
   }
@@ -65,9 +69,12 @@ html {
   .Portfolio {
    
     color: #4aaaa5;
-    border-bottom: solid #ddd 2px;
-    padding-bottom: 28px;
-    font-size: 25px;
+  border-bottom: solid #ddd 2px;
+  padding-top: 0px;
+  font-size: 100%;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+  font-family: Georgia;
   }
 
   
@@ -75,18 +82,18 @@ html {
 
 
   .Photos {
-    display: block;
-    width: 202px;
-    height: 198px;
-    
-    width: 25%;
+    float: left;
+    width: 215px;
+    height: 159px;
+    margin: 33px;
+    align-content: center;
   }
 
   figure {
 
     display: block;
-    width:202px;
-    height:170px;
+    width:320px;
+    height:50px;
     margin:0px;
     padding: 9px;
     text-align: left;
@@ -108,7 +115,7 @@ figcaption {
     background-color: #666666;
     color: white;
     
-    height: 60px;
+    height: 51px;
     text-align: center;
     border-top: #4aaaa5 5px solid;
     

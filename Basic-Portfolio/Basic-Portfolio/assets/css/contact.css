@@ -2,75 +2,110 @@ html {
     color: #ffffff
   }
 
+  body {
+ 
+    
+    
+    
+    color:  #777777;
+    font-family: Arial;
+    
+    
+    
+    
+  }
+
   #nav {
   
     border-bottom: solid #ccc ;
-    padding-bottom: 28px;
-    height: 90px;
   
-  }
-li {
-    display: inline;
+    
+    height: 68px;
+   
   }
 
-  .Name { 
-    background-color: #4aaaa5  ;
-    color: white;
-    content: "About Me"; position: relative; top: 0; left: 0; bottom: 0; right: 0; z-index: 3; text-align: center;
-    margin-left: 480px;
-    margin-right: 480px;
-    width: 197px;
-    background-size: 90px 200px;
-    font-family: Georgia;
-    text-align: left;
-   
+
+  .Me { 
+     
+  
+  font:color white;
+  background-color:  #4aaaa5 ;
+  margin-left: 480px;
+  margin-right: 480px;
+  width: 10%;
+  height: 68px;
+  font-family: Georgia;
+  text-align: left;
+  font-size: 100%;
   }
 
   .One {
     margin-left: 480px;
     margin-right: 480px;
-    width: 960px;
-   
     
-    
+    height: 68px;
     text-align: right;
+    
+    
+    
     
   
   }
 
+  li {
+    display: inline;
+    border-right: #6666 2px solid;
+    padding: 10px;
+    }
+
   #content {
     width: 960px;
-    font-size: 25px;
-    margin-bottom: 113px;
-    padding: 30px;
-    border: solid #dddddd 1px;
-    margin-top: 30px;
-    margin-left: 480px;
-    border-color: plum 480px solid;
+  font-size: 25px;
+  padding: 30px;
+  
+  border: solid #dddddd 480px;
+  border-top: 36px solid #dddddd;
+  border-bottom: 276px solid #dddddd;
+  
+  align-content: center;
     
   }
 
   .Contact {
-   
+    
     color: #4aaaa5;
     border-bottom: solid #ddd 2px;
     padding-bottom: 28px;
   }
 
   .Name {
-
+    color: #666666;
+ 
+    
   }
+  .email {
+    color:  #666666;
+    
+  }
+
+.message {
+  color: #666666;
+}
+
+input[type="submit"] {
+  background-color:  #4aaaa5;
+      
+  }
+
   #footer {
-    background-color: #666666;
+    background-color:#666666;
     color: white;
     
     height: 60px;
     text-align: center;
     border-top: #4aaaa5 5px solid;
     
+    
   }
   
-  input[type="submit"] {
-  background-color:  #4aaaa5;
-      
-  }
+ 
