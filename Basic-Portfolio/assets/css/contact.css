@@ -46,6 +46,7 @@ li {
     border: solid #dddddd 1px;
     margin-top: 30px;
     margin-left: 480px;
+    border-color: plum 480px solid;
     
   }
 
@@ -56,6 +57,9 @@ li {
     padding-bottom: 28px;
   }
 
+  .Name {
+
+  }
   #footer {
     background-color: #666666;
     color: white;
