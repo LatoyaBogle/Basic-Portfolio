@@ -1,0 +1,117 @@
+html {
+    color: #ffffff
+  }
+
+  .body {
+    margin: auto;
+  
+  
+    color:  #777777;
+    font-family: Arial;
+    
+    
+    
+    
+  }
+
+
+
+  #nav {
+  
+    border-bottom: solid #ccc ;
+    padding-bottom: 28px;
+    height: 90px;
+    width: 960px;
+    margin-left: 480px;
+    margin-right: 480px;
+  }
+
+.Name {
+    background-color: #4aaaa5  ;
+    color: white;
+    content: "About Me"; position: relative; top: 0; left: 0; bottom: 0; right: 0; z-index: 3; text-align: center;
+    margin-left: 480px;
+    margin-right: 480px;
+    width: 197px;
+    background-size: 90px 200px;
+    font-family: Georgia;
+    text-align: left;
+}
+  .One { 
+    margin-left: 480px;
+  margin-right: 480px;
+  width: 960px;
+  text-align: right;
+  
+  }
+
+  li {
+    display: inline;
+  }
+
+  #content {
+    width: 960px;
+    
+    margin-bottom: 113px;
+    padding: 30px;
+    border: solid #dddddd 1px;
+    margin-top: 30px;
+    margin-left: 480px;
+    margin-right: 480px;
+    
+    
+  }
+
+  .Portfolio {
+   
+    color: #4aaaa5;
+    border-bottom: solid #ddd 2px;
+    padding-bottom: 28px;
+    font-size: 25px;
+  }
+
+  
+
+
+
+  .Photos {
+    display: block;
+    width: 202px;
+    height: 198px;
+    
+    width: 25%;
+  }
+
+  figure {
+
+    display: block;
+    width:202px;
+    height:170px;
+    margin:0px;
+    padding: 9px;
+    text-align: left;
+  }
+figure img {
+  width:200px;
+  height: 150px;
+  border: 1px solid #6666;
+
+}
+
+figcaption {
+  background-image: url ("images/icon.png") no-repeat;
+  padding-left:20px;
+}
+  
+
+  #footer {
+    background-color: #666666;
+    color: white;
+    
+    height: 60px;
+    text-align: center;
+    border-top: #4aaaa5 5px solid;
+    
+  }
+
+  
